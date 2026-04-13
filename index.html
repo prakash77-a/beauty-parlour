@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurvedic Beauty Parlour | Natural Care</title>
+    <meta name="description" content="Experience Natural Beauty & Ayurvedic Care. Organic treatments, herbal facials, and premium salon services.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Ayurveda<span>Spa</span></a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container home-container">
+                <div class="home-content">
+                    <h1 class="home-title">Experience Natural Beauty & <br> Ayurvedic Care</h1>
+                    <p class="home-subtitle">Restore your natural glow with our organic treatments, rooted in ancient Ayurvedic wisdom.</p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="btn btn-primary">Book Appointment</a>
+                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section (Animated Counters) -->
+        <div class="stats-section">
+            <div class="container stats-container">
+                <div class="stat-item">
+                    <h2 class="counter" data-target="15">0</h2>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="5000">0</h2><span>+</span>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="20">0</h2>
+                    <p>Organic Treatments</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="100">0</h2><span>%</span>
+                    <p>Natural Products</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container about-container">
+                <div class="about-data">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="about-description">At Ayurveda Spa, we believe that true beauty stems from wellness. Founded on the principles of Ayurveda, we provide organic and holistic beauty treatments customized to harmonize your body, mind, and spirit.</p>
+                    <p class="about-description">Our expert therapists use 100% natural, freshly prepared herbal pastes, essential oils, and organic products free from harmful chemicals.</p>
+                    <a href="#services" class="btn btn-primary">Discover More</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/herbal_facial.png" alt="Herbal Facial" class="about-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <h2 class="section-title text-center">Our Premium Services</h2>
+            <div class="container services-container grid">
+                
+                <!-- Service 1 -->
+                <div class="service-card" data-tilt>
+                    <div class="service-img-wrapper">
+                        <img src="assets/organic_hair_spa.png" alt="Organic Hair Spa" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Organic Hair Spa</h3>
+                        <p class="service-description">Rejuvenate your scalp and hair with our customized herbal oil blends, deep conditioning masks, and stress-relieving massage.</p>
+                        <div class="service-pricing">
+                            <span class="price">$45</span>
+                            <a href="#contact" class="link-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card" data-tilt>
+                    <div class="service-img-wrapper">
+                        <img src="assets/herbal_facial.png" alt="Herbal Facial" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Herbal Facial</h3>
+                        <p class="service-description">Cleanse, exfoliate, and deeply nourish your skin with freshly ground Ayurvedic herbs, fruit pulps, and rare floral waters.</p>
+                        <div class="service-pricing">
+                            <span class="price">$60</span>
+                            <a href="#contact" class="link-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-tilt>
+                    <div class="service-img-wrapper">
+                        <img src="assets/ayurvedic_hair_removal.png" alt="Ayurvedic Hair Removal" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Ayurvedic Hair Removal</h3>
+                        <p class="service-description">Painless and natural permanent hair removal solutions combined with soothing botanical extracts to prevent skin irritation.</p>
+                        <div class="service-pricing">
+                            <span class="price">$85</span>
+                            <a href="#contact" class="link-btn">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <h2 class="section-title text-center">Our Serene Space</h2>
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-item active" data-filter="all">All</button>
+                    <button class="filter-item" data-filter="spa">Spa</button>
+                    <button class="filter-item" data-filter="treatments">Treatments</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item spa">
+                        <img src="assets/spa_interior.png" alt="Spa Interior">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item treatments">
+                        <img src="assets/organic_hair_spa.png" alt="Hair Spa Treatment">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item treatments">
+                        <img src="assets/herbal_facial.png" alt="Facial Treatment">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item spa">
+                        <img src="assets/herbal_bath.png" alt="Herbal Bath">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="" alt="Lightbox Image" class="lightbox-img">
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <h2 class="section-title text-center">Client Transformations</h2>
+            <div class="container testimonial-container">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"The herbal facial completely transformed my skin texture. The atmosphere is incredibly calming and the therapists are very knowledgeable about Ayurveda."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">S</div>
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"I've been going for the Organic Hair Spa every month. My hair fall has stopped, and it feels so soft and naturally bouncy. Highly recommended!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">E</div>
+                        <div>
+                            <h4>Emily R.</h4>
+                            <span>First-time Visitor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title text-center">Get in Touch</h2>
+            <div class="container contact-container grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Serenity Lane, Wellness District, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@ayurvedaspa.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sun: 9:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input" required>
+                            <option value="">Select Service</option>
+                            <option value="hair">Organic Hair Spa</option>
+                            <option value="face">Herbal Facial</option>
+                            <option value="body">Permanent Hair Removal</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-input form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Request</button>
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container grid">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Ayurveda<span>Spa</span></a>
+                <p class="footer-description">Bringing authentic Ayurvedic beauty treatments to modern lifestyles. Experience the purity of nature.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copy">&#169; 2026 AyurvedaSpa. All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/15551234567" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll Top Button -->
+    <a href="#" class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Vanilla-tilt JS for 3D effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
